@@ -1,0 +1,20 @@
+.welcome-title{
+    width: 800px;
+    height: 120px;
+    background-color: rgba(51, 130, 233, 0.656);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(220, 251, 45);
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px rgb(71, 210, 235);
+}
+.welTitle-Desc{
+    font-family: cursive;
+    font-size: 60px;
+    color: white;
+    font-weight: 100;
+    word-spacing: 20px;
+    text-shadow: 4px 4px 30px black;
+}

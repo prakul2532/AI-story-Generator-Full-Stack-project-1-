@@ -1,0 +1,27 @@
+.display-name{
+    width: 186px;
+    height: 40px;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(220, 251, 45);
+    border-radius: 12px;
+    text-align: center;
+    margin: 29px;
+    background-color: rgba(26, 185, 243, 0.544);
+    line-height: 0px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 20px rgb(71, 210, 235);
+}
+.textDesc2{
+    color: black;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: cursive;
+    text-shadow: 0px 0px 1px black;
+}
+.display-name-box{
+    display: flex;
+    flex-direction: row;
+}
+.display-name-icon{
+    font-size: 50px;
+}

@@ -1,0 +1,48 @@
+body{
+    background-image:url("../assets/siteBackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    height: 100%;
+    width: 100%;
+} 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 20px;
+    border-radius: 35px;
+    margin: 20px 30px;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: 2px solid white;
+    width: 97vw;
+    height: 169px;
+    backdrop-filter: blur(10px);
+}
+.ai-result-box{
+    text-wrap: wrap;
+    border: 2px solid rgb(220, 251, 45);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 40px;
+    backdrop-filter: blur(20px);
+    font-size: 30px;
+    box-shadow: 3px 3px 100px rgb(71, 210, 235);
+}
