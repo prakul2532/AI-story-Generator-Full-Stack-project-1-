@@ -17,9 +17,11 @@ def LLM_generation(data:Userinput):
 
     Title: {data.Title}
     Important info: {data.Important_info}
-    return the output as:- 
-    1.) {{better title}}
-    2.) {{Story}}
+    return the output strictly in JSON format :-
+    {{
+    "better_title": "{{data.better_title}}",
+    "story": "{{data.story}}"
+    }}
     """
 
 
