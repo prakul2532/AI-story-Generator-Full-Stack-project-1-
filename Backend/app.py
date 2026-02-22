@@ -21,5 +21,5 @@ def index(data : Userinput):
     Story = AIresult[1].replace("1.)","").strip() if len(AIresult) > 1 else ""
     return {
         "better_title": better_title,
-        "story": Story,
+        "story": Story
     }

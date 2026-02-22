@@ -59,7 +59,6 @@ function Index(){
     {loading && <p>Generating story ...</p>}
     {response && (
       <div className="ai-result-box">
-        <h2>{response.title}</h2>
         <p>{response.story}</p>
       </div>
     )}
