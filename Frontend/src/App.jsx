@@ -20,7 +20,7 @@ function Index(){
   const handleGenerate = async () => {
     try {
       setLoading(true);
-      const res = await fetch("http://127.0.0.1:8000/generate-story",{
+      const res = await fetch("https://ai-story-generator-2oru.onrender.com",{
         method: "POST",
         headers: {
           "Content-Type": "application/json"
