@@ -4,7 +4,7 @@ from call_llm import LLM_generation
 from fastapi.middleware.cors import CORSMiddleware
 
 origins = [
-    "https://ai-story-generator-tau-eight.vercel.app/",
+    "https://ai-story-generator-tau-eight.vercel.app",
 ]
 app = FastAPI(title="My Simple API")
 app.add_middleware(
