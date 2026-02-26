@@ -3,11 +3,13 @@ from schemas import *
 from call_llm import LLM_generation
 from fastapi.middleware.cors import CORSMiddleware
 
-
+origins = [
+    "https://ai-story-generator-tau-eight.vercel.app/",
+]
 app = FastAPI(title="My Simple API")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]
