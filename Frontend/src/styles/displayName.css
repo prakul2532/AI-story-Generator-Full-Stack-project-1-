@@ -25,3 +25,19 @@
 .display-name-icon{
     font-size: 50px;
 }
+@media (max-width: 768px) {
+    .display-name {
+        width: 200px;
+        height: 42px;
+        margin: 0px;
+        padding: 8px;
+    }
+    .textDesc2 {
+        font-size: 26px;
+    }
+    .display-name-box {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+}

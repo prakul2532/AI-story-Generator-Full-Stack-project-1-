@@ -18,3 +18,13 @@
     word-spacing: 20px;
     text-shadow: 4px 4px 30px black;
 }
+@media (max-width: 768px) {
+    .welcome-title {
+        width: 600px;
+        height: 100px;
+    }
+    .welTitle-Desc {
+        font-size: 40px;
+        word-spacing: 8px;
+    }
+}
