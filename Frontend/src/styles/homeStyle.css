@@ -59,4 +59,8 @@ body{
         margin-top: 281px;
         width: 545px;
     }
+    .ai-result-box {
+        width: 536px;
+        margin-left: 2px;
+    }
 }
